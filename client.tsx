@@ -1,16 +1,15 @@
 import { React, ReactDOM } from "./deps.ts";
+import { TListItem } from "./types.ts";
 
-import { TList } from "./types.ts";
+import App from './components/App.tsx'
 
 declare global {
-  var __INITIAL_STATE__: { list: TList };
+  var __INITIAL_STATE__: { list: TListItem[] };
 }
-
-import App from './app.tsx'
 
 const { list } = window.__INITIAL_STATE__ || { list: [] };
 
-hydrateRoot(
+ReactDOM.hydrate(
   <App list={list} />,
   document.getElementById("root"),
 );

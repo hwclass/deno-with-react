@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "deno run --allow-net --allow-read --allow-write --watch --no-check --allow-env server.tsx -c deno.json",
     "start": "deno run --allow-net --allow-read --allow-write --watch --no-check --allow-env server.tsx -c deno.json",
-    "start:clean": "deno run --allow-net --allow-read --allow-write --reload server.tsx -c deno.json"
+    "start:clean": "deno run --allow-net --allow-read --allow-write --reload server.tsx -c deno.json",
+    "test": "PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@16.2.0/install.ts && deno run -A --unstable ./tests/e2e.ts"
   },
   "keywords": [],
   "author": "",

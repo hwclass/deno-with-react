@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Name 1",
+    "description": "Description 1"
+  },
+  {
+    "name": "Name 2",
+    "description": "Description 2",
+    "link": "google.com"
+  },
+  {
+    "name": "Name 3",
+    "description": "Description 3"
+  },
+  {
+    "name": "Name 4",
+    "description": "Description 4",
+    "link": "yahoo.com",
+    "additional": "extra"
+  },
+  {
+    "name": "Name 6",
+    "description": "Description 6",
+    "link": "ebay.com",
+    "some": "extra information..."
+  }
+]
