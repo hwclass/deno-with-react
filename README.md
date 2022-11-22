@@ -18,7 +18,11 @@ docker compose up
 
 ### Install Deno
 
+- [https://deno.land/manual@v1.28.1/getting_started/installation](https://deno.land/manual@v1.28.1/getting_started/installation)
+
 ### Install Yarn
+
+- [https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 ## Run (without Docker)
 
