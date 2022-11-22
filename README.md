@@ -5,6 +5,8 @@
 
 - Go install [Docker](https://docs.docker.com/get-docker/).
 
+## Run (with Docker)
+
 ```sh
 docker compose -f docker-compose.yml build
 ```
