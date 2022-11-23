@@ -3,9 +3,9 @@ import { React, ReactDOMServer } from "../deps.ts";
 import App from '../components/App.tsx'
 import { TListItem } from '../types.ts'
 
-import data from "../seed/data.json" assert { type: "json" };
+import { RANDOM_SEED_DATA } from '../seed/data.ts'
 
-const INITIAL_DATA: TListItem[] = data
+const INITIAL_DATA: TListItem[] = RANDOM_SEED_DATA
 
 async function home(req: Request): Promise<Response> {
   const { method } = req;
